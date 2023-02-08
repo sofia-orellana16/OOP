@@ -1,12 +1,12 @@
-import CoinClass as c
+import InsectClass as i
 # name of python file - not name of class
 
 # The main function.
 def main():
-       # Create an object from the Coin class.
-       my_coin = c.Coin()   # this creates an instance called 'my_coin' of the class 'Coin()'
+       
+       my_insect = i.Insect()   # this creates an instance called 'my_coin' of the class 'Coin()'
 # has to match name of the class
-       # Display the side of the coin that is facing up.
+       
        print('This side is up:', my_coin.get_sideup())    # notice you do not have to supply the argument/parameter
 
        # Toss the coin.
@@ -14,7 +14,7 @@ def main():
        for count in range(10):
            my_coin.toss()
            
-           # Display the side of the coin that is facing up.
+           
            print('This side is up:', my_coin.get_sideup())
 
            

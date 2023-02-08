@@ -2,13 +2,14 @@ import random
 
 # The Coin class simulates a coin that can
 # be flipped.
-
+# name of class will always start with a uppercase
 class Coin:
     # The _ _init_ _ method initializes the
     # sideup data attribute with 'Heads'.
 
     def __init__(self):
         self.sideup = 'Heads'
+# self assures that it is only being used an not accesed
 
     # The toss method generates a random number
     # in the range of 0 through 1. If the number
@@ -26,3 +27,4 @@ class Coin:
 
     def get_sideup(self):
             return self.sideup
+#accesor methods: methods that return an
