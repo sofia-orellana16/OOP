@@ -4,22 +4,24 @@ import random
 class Insect:
    
 
-    def __init__(self):
-        self.wings = 2
-        self.legs = 4
+    def __init__(self, n, w , l):
+        self.name = n
+        self.wings = w
+        self.legs = l
         self.flight = 0
 # self assures that it is only being used an not accesed
 
  
 
     def get_fly(self):
-        if random.randint(0, 10) == 0:
-            self.flight = 'no flight'
-        else:
-            self.flight = random.randit(1,10)
+       self.flight = random.randint(1, 10)
+  
 
 
 
     def get_flighttime(self):
             return self.flight
+    
+    def get_name(self):
+         return self.name
 #accesor methods: methods that return an
