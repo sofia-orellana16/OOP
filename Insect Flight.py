@@ -10,13 +10,13 @@ def main():
        mosquito.flight_length()
        housefly.flight_length() 
        
-       print('the {mosquito.get_name()} can fly up to' {mosquito.get_flighttime()})                            # notice you do not have to supply the argument/parameter
-       print('the {mosquito.get_name()} can fly up to' {housefly.getflighttime()})
+       print('the {mosquito.get_name()} can fly up to {mosquito.get_flighttime()}')                            # notice you do not have to supply the argument/parameter
+       print('the {mosquito.get_name()} can fly up to {housefly.getflighttime()}')
 
     
            
            
-        
+       
 
            
 
